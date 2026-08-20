@@ -50,7 +50,7 @@ O programa pede o CPF/CNPJ via terminal e informa se é válido.
 
 - [ ] Implementar `validar_cnpj_comp` com o mesmo rigor matemático (12 dígitos base + pesos específicos)
 - [ ] Adicionar testes unitários (`unittest`/`pytest`)
-- [ ] Empacotar como função reutilizável para uso em outros projetos (ex: [cliente_app](#))
+- [ ] Empacotar como função reutilizável para uso em outros projetos (ex: [cliente_app](https://github.com/davycaetano08-crypto/cadastro-clientes.git))
 
 ---
 
