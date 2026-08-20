@@ -4,7 +4,7 @@ Script em Python que valida documentos brasileiros (CPF e CNPJ) usando o algorit
 
 ## 🎯 Objetivo
 
-Muitos validadores de CPF encontrados por aí checam só o tamanho da string. Este projeto implementa a validação matemática completa — o mesmo cálculo usado pela Receita Federal para gerar os dígitos verificadores — construído do zero, função por função, para reforçar fundamentos de lógica, funções puras e reuso de código em Python.
+Muitos validadores de CPF encontrados por aí checam só o tamanho da string. Este projeto implementa a validação matemática completa, o mesmo cálculo usado pela Receita Federal para gerar os dígitos verificadores, construído do zero, função por função, para reforçar fundamentos de lógica, funções puras e reuso de código em Python.
 
 ## ⚙️ Funcionalidades
 
