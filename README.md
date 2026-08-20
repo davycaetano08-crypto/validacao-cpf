@@ -25,7 +25,7 @@ O CPF tem 11 dígitos: **9 dígitos base** + **2 dígitos verificadores**.
 ## 🚀 Como executar
 
 ```bash
-python validador.py
+python validacap-cpf.py
 ```
 
 O programa pede o CPF/CNPJ via terminal e informa se é válido.
