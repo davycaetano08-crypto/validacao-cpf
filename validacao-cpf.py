@@ -1,10 +1,5 @@
-def get_cpf(cpf: str) -> bool:
-        clean = cpf.replace('.', '').replace('-', '').replace('/', '')
-        if len(clean) == 11 and clean.isdigit() and len(set(clean)) > 1:
-            return True
-
 def get_cnpj(cnpj: str) -> bool:
-        clean = cnpj.replace('.', '').replace('/', '').replace('-', '')
+        clean = cnpj.replace('.', '').replace('/', '').replace('-', '').strip()
         if len(clean) == 14 and clean.isdigit() and len(set((clean))) > 1:
             return True
 
@@ -24,7 +19,7 @@ def calc_verif_digit(soma: int) -> int:
     return digito
 
 def validar_cpf_comp(cpf: str) -> bool:
-    cpf_limpo = cpf.replace('.', '').replace('-', '')
+    cpf_limpo = cpf.replace('.', '').replace('-', '').strip()
 
     if not (len(cpf_limpo) == 11 and cpf_limpo.isdigit() and len(set(cpf_limpo)) > 1):
         return False
